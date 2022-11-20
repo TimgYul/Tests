@@ -2,11 +2,9 @@ import requests
 import json
 
 
-Token = 'y0_AgAAAAAA5PmBAADLWwAAAADUQl3JfnvvLRucSEKBnCSUGpSRp7EaJiE'
-
 class YandexDisk:
     def __init__(self, token):
-        self.token = Token
+        self.token = token
 
     def get_headers(self):
         return {

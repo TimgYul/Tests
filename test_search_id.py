@@ -28,7 +28,7 @@ folder = [
         ( 'List' , 201 ),
         ( 'New' , 201)
           ]
-access_token_ya = 'y0_AgAAAAAA5PmBAADLWwAAAADUQl3JfnvvLRucSEKBnCSUGpSRp7EaJiE'
+access_token_ya = ''
 ya = YandexDisk(token=access_token_ya)
 
 class TestFunc(unittest.TestCase):
